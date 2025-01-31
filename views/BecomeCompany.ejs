@@ -1,0 +1,159 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title> &mdash; Request to Job Posting</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    <link rel="stylesheet" href="../jobassests/css/custom-bs.css">
+    <link rel="stylesheet" href="../jobassests/css/jquery.fancybox.min.css">
+    <link rel="stylesheet" href="../jobassests/css/bootstrap-select.min.css">
+    <link rel="stylesheet" href="../jobassests/fonts/icomoon/style.css">
+    <link rel="stylesheet" href="../jobassests/fonts/line-icons/style.css">
+    <link rel="stylesheet" href="../jobassests/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="../jobassests/css/animate.min.css">
+    <link rel="stylesheet" href="../jobassests/css/quill.snow.css">
+    
+    <style>
+      /* Add your background image and transparency */
+      body {
+        background-image: url('../upload/jobpost2.jpg');
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+      }
+
+      .form-container {
+        background-color: rgba(255, 255, 255, 0.8); /* Transparent white background */
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      }
+
+      h2, h3 {
+        color: #333;
+      }
+
+      /* Styling the Home button as a button and placing it in the top right corner */
+      .home-btn {
+        position: absolute;
+        top: 20px;
+        right: 20px;
+        padding: 10px 20px;
+        background-color: #28a745;
+        color: white;
+        text-decoration: none;
+        border-radius: 5px;
+        font-weight: bold;
+        border: none;
+        cursor: pointer;
+      }
+
+      .home-btn:hover {
+        background-color: #218838;
+      }
+
+      .btn-primary {
+        background-color: #007bff;
+        border: none;
+      }
+
+      .btn-primary:hover {
+        background-color: #0056b3;
+      }
+
+      .custom-breadcrumbs a {
+        color: #fff;
+        text-decoration: underline;
+      }
+      .btn-primary {
+    color: white !important;
+}
+
+    </style>
+  </head>
+  <body id="top">
+
+    <!-- Home button at the top right corner -->
+    <a href="/" class="home-btn">Home</a>
+
+    <div class="site-wrap">
+
+      <div class="site-mobile-menu site-navbar-target">
+        <div class="site-mobile-menu-header">
+          <div class="site-mobile-menu-close mt-3">
+          </div>
+        </div>
+        <div class="site-mobile-menu-body"></div>
+      </div> <!-- .site-mobile-menu -->
+      
+      <!-- HOME -->
+      <section class="section-hero overlay inner-page bg-image" id="home-section">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-7">
+              <h1 class="text-white font-weight-bold">Request to Job posting</h1>
+             
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="site-section">
+        <div class="container">
+
+          <div class="row align-items-center mb-5">
+            <div class="col-lg-8 mb-4 mb-lg-0">
+              <div class="d-flex align-items-center">
+                <div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="row mb-5">
+            <div class="col-lg-12">
+              <div class="form-container"> <!-- Added form-container for background transparency -->
+                <form class="p-4 p-md-5 border rounded" method="POST" enctype="multipart/form-data">
+                  <h3 class="text-black my-5 border-bottom pb-2">Company Details</h3>
+
+                  <div class="form-group">
+                    <label for="company-name">Company Name</label>
+                    <input type="text" class="form-control" name="companyname" placeholder="e.g. XYZ">
+                  </div>
+
+                  <div class="form-group">
+                    <label for="company-tagline">Email</label>
+                    <input type="email" class="form-control" name="email" placeholder="e.g. example@xyz.com">
+                  </div>
+
+                  <div class="form-group">
+                    <label for="company-tagline">Location</label>
+                    <input type="text" class="form-control" name="tagline" placeholder="e.g. Kandy">
+                  </div>
+
+                  <div class="form-group">
+                    <label for="company-website-tw d-block">Upload Certification</label> <br>
+                    <input type="file" name="ccertificate" class="form-control" accept="image/*">
+                  </div>
+
+                  <div class="row align-items-center mb-5">
+                    <div class="col-lg-4 ml-auto">
+                      <div class="row">
+                        <div class="col-6">
+                          <button type="submit" class="btn btn-block btn-primary btn-md" style="color: white;">Submit</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </form>
+              </div> <!-- .form-container -->
+            </div>
+          </div>
+        </div>
+      </section>
+
+    </div> <!-- .site-wrap -->
+
+  </body>
+</html>

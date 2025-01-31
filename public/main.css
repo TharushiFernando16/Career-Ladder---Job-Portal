@@ -1,0 +1,310 @@
+
+/*-------------------------------------
+		4. We-do
+--------------------------------------*/
+.we-do{
+	padding: 65px 0 82px;
+    background-color: #d0e4f4;
+}
+
+/* section-header */
+.section-header h2{
+	color: #12153b;
+	font-size: 40px;
+	font-family: 'Playfair Display', serif;
+	font-weight: 700;
+}
+.section-header h2 span{
+	color: #4d4e54;
+}
+.section-header p{
+	color: #888;
+	font-size: 17px;
+	font-family: 'Poppins', sans-serif;
+	max-width: 1000px;
+    margin: 0 auto;
+    margin-top: 32px;
+    line-height: 1.8;
+}/* section-header */
+
+
+/*single-we-do-box */
+.we-do-carousel {
+    padding-top: 60px;
+}
+.we-do-description {
+    padding: 55px 0 70px;
+}
+.single-we-do-box  {
+    box-shadow:0 0 5px rgba(35,37,41,.1);
+	overflow-x:hidden;
+	margin-top: 15px;
+	opacity:1;
+	-webkit-transition: .5s; 
+	-moz-transition:.5s; 
+	-ms-transition:.5s; 
+	-o-transition:.5s;
+    transition: .5s;
+}
+
+/*we-do-description*/
+.single-we-do-box{
+	background:#c2d5f6;
+	min-height: 345px
+}
+/* we-do-info */
+.we-do-info {
+	font-family: 'Playfair Display', serif;
+	text-transform: capitalize;
+}
+.we-do-img {
+    margin-right: 5px;
+	border-radius:50%;
+	-webkit-transition: .5s; 
+	-moz-transition:.5s; 
+	-ms-transition:.5s; 
+	-o-transition:.5s;
+    transition: .5s;
+}
+.we-do-topics {
+    margin-top: 32px;
+    margin-bottom: 27px;
+}
+.we-do-topics h2 a{
+	color:#44454f;
+	font-size:25px;
+}/* we-do-info */
+
+
+/* we-do-comment */
+.we-do-comment {
+    margin-top: 14px;
+}
+.we-do-comment p{
+	color:#888;
+	font-size:17px;
+    font-family: 'Poppins', sans-serif;
+	max-width: 306px;
+	margin: 0 auto;
+}/* we-do-comment */
+
+
+/*we-do-description*/
+.single-we-do-box:hover{
+	box-shadow:0 5px 20px rgba(112,134,230,.2);
+	opacity:1;
+}
+
+/*owl carousel*/
+.owl-carousel .owl-stage {
+    position: relative;
+    padding-top: 26px;
+	padding-bottom: 40px;
+}
+
+
+/*-------------------------------------
+		13. Latest News
+--------------------------------------*/
+.news{
+	padding: 114px 0 95px;
+}
+.news-card {
+    margin-top: 70px;
+}
+.news-card-pb-25{
+	padding-bottom: 25px;
+}
+/*single-news-box*/
+.single-news-box{
+	box-shadow:0 5px 30px 0px rgba(115,112,215,.2);
+	min-height: 504px;
+	margin-bottom: 13px;
+	-webkit-transition: .5s;
+    -moz-transition: .5s;
+    -ms-transition: .5s;
+    -o-transition: .5s;
+    transition: .5s;
+
+}
+.single-news-box.news-mb-20{
+	margin-bottom:20px;
+}/*single-news-box*/
+
+/*news-box-bg*/
+.news-box-bg {
+	position: relative;
+	overflow: hidden;
+	-webkit-transform:scale(1);
+    -moz-transform:scale(1);
+    -ms-transform:scale(1);
+    -o-transform:scale(1);
+    transform:scale(1); 
+	-webkit-transition: .5s;
+    -moz-transition: .5s;
+    -ms-transition: .5s;
+    -o-transition: .5s;
+    transition: .5s;
+}
+.single-news-box:hover .isotope-overlay{
+	-webkit-transform:scaleY(1);
+    -moz-transform:scaleY(1);
+    -ms-transform:scaleY(1);
+    -o-transform:scaleY(1);
+    transform:scaleY(1);
+	top:0;
+}/*news-box-bg*/
+
+/*news-box-inner*/
+.news-box-inner{
+	padding: 30px 0px 30px 20px;
+	-webkit-transition: .5s;
+    -moz-transition: .5s;
+    -ms-transition: .5s;
+    -o-transition: .5s;
+    transition: .5s;
+}
+.news-box-inner h3 a{
+	color: #4d4e54;
+    display:block;
+    font-size:16px;
+	margin-bottom: 17px;
+	font-family: 'Playfair Display', serif;
+	font-style: italic ;
+	max-width: 350px;
+	font-weight: 600;
+	line-height: 1.4;
+}
+.news-box-inner .team-meta{
+	display:block;
+	color:#4d4e54;
+	font-size:12px;
+	font-family: 'Poppins', sans-serif;
+}
+
+.news-box-inner span{
+	color:#908edf;
+
+}
+a.learn-btn,
+a:hover.learn-btn,
+a:focus.learn-btn,
+a:active.learn-btn{
+    color: #7086e6;
+    font-size:12px;
+	font-family: 'Lato', sans-serif;
+	font-weight: 700;
+    text-transform: capitalize;
+    margin-top: 8px;
+    padding-bottom: 18px;
+    opacity:0;
+    -webkit-transition: 0.5s ease-in-out;
+    -moz-transition: 0.5s ease-in-out;
+    -ms-transition: 0.5s ease-in-out;
+    -o-transition: 0.5s ease-in-out;
+    transition: 0.5s ease-in-out;
+}
+.single-news-box:hover .news-box-inner {
+	background: #f9faff;
+	
+}/*team-box-inner*/
+.single-news-box:hover{
+	box-shadow:0 5px 35px 0px rgba(115,112,215,.2);
+}
+.single-news-box:hover .news-box-bg{
+	-webkit-transform:scaleY(1.05);
+    -moz-transform:scaleY(1.05);
+    -ms-transform:scaleY(1.05);
+    -o-transform:scaleY(1.05);
+    transform:scaleY(1.05);
+}
+
+
+.project-view {
+    display: inline-block;
+    padding: 10px 20px; /* Adjust padding as needed */
+    background-color: #153251; /* Change color to your desired button color */
+    color: #fff; /* Text color */
+    text-decoration: none; /* Remove underline */
+    border-radius: 5px; /* Add rounded corners */
+    transition: background-color 0.3s; /* Add transition for hover effect */
+}
+
+.project-view:hover {
+    background-color: #0056b3; /* Change color on hover */
+	color: #f9faff;
+}
+
+
+/*subscribe-title*/
+.subscribe-title {margin-bottom: 52px;}
+
+.subscribe-title h2{
+	font-size:25px;
+	font-weight: 500;
+	text-transform: uppercase;
+}
+.subscribe-title p{
+	color:#02050b;
+	font-size:18px;
+	font-weight: 500;
+	margin-top: 28px;
+}/*subscribe-title*/
+
+
+/*custom-input-group*/
+.subscription-input-group {
+	position: relative;
+	text-align: center;
+	max-width: 630px;
+	margin:0 auto;
+}
+
+.subscription-input-group .subscription-input-form{
+	display: inline-block;
+	width: 630px;
+	height: 60px;
+	padding-left:30px;
+	font-size: 16px;
+	color: black;
+	-webkit-border-radius:3px;
+	-moz-border-radius:3px;
+	border-radius:3px;
+	border:1px solid #470736;
+	box-shadow: 0 0px 10px rgba(21,19,19,.1);
+	 -webkit-transition:0.3s linear;
+	-moz-transition:0.3s linear;
+	-o-transition:0.3s linear;
+	transition:0.3s linear;
+}
+.subscription-input-group:hover .subscription-input-form{
+	box-shadow: 0 5px 20px rgba(21,19,19,.4);
+}
+/*custom-input-group*/
+
+/*appsLand-btn*/
+.appsLand-btn {
+	display: inline-block;
+    padding: 10px 20px; /* Adjust padding as needed */
+    background-color: #153251; /* Change color to your desired button color */
+    color: #fff; /* Text color */
+    text-decoration: none; /* Remove underline */
+    border-radius: 5px; /* Add rounded corners */
+    transition: background-color 0.3s; /* Add transition for hover effect */
+}
+.appsLand-btn:hover, .appsLand-btn:focus, .appsLand-btn:active {
+	text-decoration: none;
+	outline: none;
+}
+.appsLand-btn:hover {
+	background-color: #0056b3; /* Change color on hover */
+	color: #f9faff;
+}
+
+
+/*appsLand-btn*/
+
+
+
+
+
